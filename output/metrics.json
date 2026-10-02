@@ -1,0 +1,330 @@
+{
+  "dataset": {
+    "path": "data/bpi2012.xes.gz",
+    "events": 262200,
+    "cases": 13087,
+    "activities": 24,
+    "resources": 68,
+    "start": "2011-09-30 22:38:44.546000+00:00",
+    "end": "2012-03-14 15:04:54.681000+00:00",
+    "load_seconds": 11.2
+  },
+  "variants": {
+    "total": 4379,
+    "coverage_top10": 49.32,
+    "top": [
+      {
+        "steps": 3,
+        "count": 3429,
+        "share": 26.2,
+        "activities": [
+          "A_SUBMITTED",
+          "A_PARTLYSUBMITTED",
+          "A_DECLINED"
+        ]
+      },
+      {
+        "steps": 6,
+        "count": 1872,
+        "share": 14.3,
+        "activities": [
+          "A_SUBMITTED",
+          "A_PARTLYSUBMITTED",
+          "W_Afhandelen leads",
+          "W_Afhandelen leads",
+          "A_DECLINED",
+          "W_Afhandelen leads"
+        ]
+      },
+      {
+        "steps": 8,
+        "count": 271,
+        "share": 2.07,
+        "activities": [
+          "A_SUBMITTED",
+          "A_PARTLYSUBMITTED",
+          "W_Afhandelen leads",
+          "W_Afhandelen leads",
+          "W_Afhandelen leads",
+          "W_Afhandelen leads",
+          "A_DECLINED",
+          "W_Afhandelen leads"
+        ]
+      },
+      {
+        "steps": 10,
+        "count": 209,
+        "share": 1.6,
+        "activities": [
+          "A_SUBMITTED",
+          "A_PARTLYSUBMITTED",
+          "W_Afhandelen leads",
+          "W_Afhandelen leads",
+          "A_PREACCEPTED",
+          "W_Completeren aanvraag",
+          "W_Afhandelen leads",
+          "W_Completeren aanvraag",
+          "A_DECLINED",
+          "W_Completeren aanvraag"
+        ]
+      },
+      {
+        "steps": 7,
+        "count": 160,
+        "share": 1.22,
+        "activities": [
+          "A_SUBMITTED",
+          "A_PARTLYSUBMITTED",
+          "A_PREACCEPTED",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "A_DECLINED",
+          "W_Completeren aanvraag"
+        ]
+      },
+      {
+        "steps": 7,
+        "count": 134,
+        "share": 1.02,
+        "activities": [
+          "A_SUBMITTED",
+          "A_PARTLYSUBMITTED",
+          "A_PREACCEPTED",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "A_CANCELLED",
+          "W_Completeren aanvraag"
+        ]
+      },
+      {
+        "steps": 12,
+        "count": 126,
+        "share": 0.96,
+        "activities": [
+          "A_SUBMITTED",
+          "A_PARTLYSUBMITTED",
+          "W_Afhandelen leads",
+          "W_Afhandelen leads",
+          "A_PREACCEPTED",
+          "W_Completeren aanvraag",
+          "W_Afhandelen leads",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "A_DECLINED",
+          "W_Completeren aanvraag"
+        ]
+      },
+      {
+        "steps": 9,
+        "count": 93,
+        "share": 0.71,
+        "activities": [
+          "A_SUBMITTED",
+          "A_PARTLYSUBMITTED",
+          "A_PREACCEPTED",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "A_DECLINED",
+          "W_Completeren aanvraag"
+        ]
+      },
+      {
+        "steps": 9,
+        "count": 87,
+        "share": 0.66,
+        "activities": [
+          "A_SUBMITTED",
+          "A_PARTLYSUBMITTED",
+          "A_PREACCEPTED",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "A_CANCELLED",
+          "W_Completeren aanvraag"
+        ]
+      },
+      {
+        "steps": 14,
+        "count": 74,
+        "share": 0.57,
+        "activities": [
+          "A_SUBMITTED",
+          "A_PARTLYSUBMITTED",
+          "W_Afhandelen leads",
+          "W_Afhandelen leads",
+          "A_PREACCEPTED",
+          "W_Completeren aanvraag",
+          "W_Afhandelen leads",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "W_Completeren aanvraag",
+          "..."
+        ]
+      }
+    ]
+  },
+  "case_duration_days": {
+    "mean": 8.62,
+    "median": 0.81,
+    "p90": 30.46,
+    "p99": 46.9,
+    "max": 137.22
+  },
+  "model": {
+    "places": 54,
+    "transitions": 78,
+    "arcs": 174
+  },
+  "conformance_token_replay": {
+    "perc_fit_traces": 61.7101,
+    "average_trace_fitness": 0.9887,
+    "log_fitness": 0.9734,
+    "percentage_of_fitting_traces": 61.7101
+  },
+  "conformance_alignments_sample": {
+    "sample_size": 100,
+    "seconds": 121.5,
+    "percFitTraces": 100.0,
+    "averageFitness": 1.0,
+    "percentage_of_fitting_traces": 100.0,
+    "average_trace_fitness": 1.0,
+    "log_fitness": 0.9996
+  },
+  "bottlenecks": [
+    {
+      "activity": "W_Nabellen offertes",
+      "mean_service": "8.0 gg",
+      "median_service": "5.1 gg",
+      "occurrences": 97628,
+      "mean_wait": "30.9 h"
+    },
+    {
+      "activity": "W_Nabellen incomplete dossiers",
+      "mean_service": "6.6 gg",
+      "median_service": "2.9 gg",
+      "occurrences": 85853,
+      "mean_wait": "7.0 h"
+    },
+    {
+      "activity": "W_Completeren aanvraag",
+      "mean_service": "4.0 gg",
+      "median_service": "23.2 h",
+      "occurrences": 96417,
+      "mean_wait": "16.7 h"
+    },
+    {
+      "activity": "W_Valideren aanvraag",
+      "mean_service": "2.1 gg",
+      "median_service": "75.2 min",
+      "occurrences": 19644,
+      "mean_wait": "2.2 h"
+    },
+    {
+      "activity": "W_Beoordelen fraude",
+      "mean_service": "13.4 h",
+      "median_service": "4.6 min",
+      "occurrences": 612,
+      "mean_wait": "6.9 h"
+    },
+    {
+      "activity": "W_Afhandelen leads",
+      "mean_service": "1.5 h",
+      "median_service": "2.7 min",
+      "occurrences": 7867,
+      "mean_wait": "2.6 h"
+    }
+  ],
+  "rework": {
+    "cases_with_rework": 27362,
+    "top_activities": [
+      {
+        "activity": "W_Completeren aanvraag",
+        "cases": 7367
+      },
+      {
+        "activity": "W_Nabellen offertes",
+        "cases": 5011
+      },
+      {
+        "activity": "W_Afhandelen leads",
+        "cases": 4755
+      },
+      {
+        "activity": "W_Valideren aanvraag",
+        "cases": 3210
+      },
+      {
+        "activity": "W_Nabellen incomplete dossiers",
+        "cases": 1647
+      },
+      {
+        "activity": "O_CREATED",
+        "cases": 1438
+      },
+      {
+        "activity": "O_SELECTED",
+        "cases": 1438
+      },
+      {
+        "activity": "O_SENT",
+        "cases": 1438
+      },
+      {
+        "activity": "O_CANCELLED",
+        "cases": 749
+      },
+      {
+        "activity": "O_SENT_BACK",
+        "cases": 197
+      }
+    ]
+  },
+  "top_resources": [
+    {
+      "resource": "112",
+      "events": 45687
+    },
+    {
+      "resource": "11169",
+      "events": 7825
+    },
+    {
+      "resource": "10138",
+      "events": 7690
+    },
+    {
+      "resource": "11181",
+      "events": 7551
+    },
+    {
+      "resource": "10861",
+      "events": 7382
+    },
+    {
+      "resource": "10609",
+      "events": 7049
+    },
+    {
+      "resource": "10913",
+      "events": 6842
+    },
+    {
+      "resource": "11189",
+      "events": 6778
+    },
+    {
+      "resource": "11180",
+      "events": 6777
+    },
+    {
+      "resource": "11119",
+      "events": 6712
+    }
+  ]
+}
