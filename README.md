@@ -64,6 +64,14 @@ python src/ask.py --llm "perché il caso medio dura così tanto?"   # richiede O
 
 `ask.py` risponde su: casi/eventi, varianti, fitness, colli di bottiglia, durata dei casi, rework, risorse, modello. Con `--llm` e `OPENAI_API_KEY` le domande libere vengono risolte da un LLM ancorato a `metrics.json` (grounded, senza hallucination sui numeri).
 
+## Progetto collegato
+
+- [**Petrinet-Lab**](https://github.com/Polifemu/Petrinet-Lab) — toolkit Python
+  che implementa da zero il fondamento formale dietro PM4Py: reti P/T,
+  temporali (state class graph con DBM) e stocastiche (CTMC/Gillespie), con
+  cross-validation SNAKES/PM4Py, agente multi-agente LangGraph e dashboard
+  Streamlit.
+
 ## Note
 
 - Le visualizzazioni di processo sono renderizzate con networkx/matplotlib: **nessuna dipendenza da Graphviz**.
