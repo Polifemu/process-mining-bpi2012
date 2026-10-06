@@ -77,3 +77,8 @@ python src/ask.py --llm "perché il caso medio dura così tanto?"   # richiede O
 - Le visualizzazioni di processo sono renderizzate con networkx/matplotlib: **nessuna dipendenza da Graphviz**.
 - PM4Py è AGPL v3: per uso commerciale closed-source serve licenza commerciale (l'analisi in sé è riproducibile con licenza commerciale o strumenti alternativi).
 - L'export BPMN nativo di PM4Py richiede Graphviz (`dot`) e viene saltato automaticamente se assente; la Petri net è esportata in PNML.
+
+## Licenza
+
+Apache-2.0. Vedi [LICENSE](LICENSE).
+
